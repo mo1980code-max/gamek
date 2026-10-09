@@ -97,6 +97,7 @@ public final class TaskManager implements HintController.Provider, TaskContext.C
     private GameTask currentTask;
     private State state = State.IDLE;
     private boolean started;
+    private boolean paused;
     private boolean destroyed;
 
     public TaskManager(Host host,
@@ -140,6 +141,7 @@ public final class TaskManager implements HintController.Provider, TaskContext.C
             return;
         }
         started = true;
+        paused = false;
         flow.reset();
         baby.resetToInitialState();
         fx.clear();
@@ -160,18 +162,29 @@ public final class TaskManager implements HintController.Provider, TaskContext.C
             currentTask.detach();
             currentTask = null;
         }
-        drag.unregisterAll();
+        drag.unregisterAll();   // also cancels any live drag and drops its ghost
         tray.hideImmediately();
+        fx.clear();
         sound.stopDryerLoop();
+        hintsHide();
         start();
     }
 
-    /** Called from {@code onPause}: stops timers so nothing fires behind another activity. */
+    /**
+     * Called from {@code onPause}.
+     *
+     * <p>Only the hint poller is stopped. The sequencing callbacks are deliberately <em>not</em>
+     * cancelled: {@code celebrateStepCleared} → {@code finishStep} → {@code advanceFlow} is a chain
+     * of posted steps, so clearing the queue mid-celebration would strand the round with the tray
+     * still on screen and no way to reach the next step. Those callbacks only touch views that
+     * outlive the pause, and {@link #destroy()} tears the whole thing down if the window really
+     * goes away.</p>
+     */
     public void pause() {
+        paused = true;
         if (hints != null) {
             hints.stop();
         }
-        handler.removeCallbacksAndMessages(null);
     }
 
     /** Called from {@code onResume}. */
@@ -179,13 +192,16 @@ public final class TaskManager implements HintController.Provider, TaskContext.C
         if (destroyed || !started) {
             return;
         }
-        if (hints != null) {
+        paused = false;
+        // Only re-arm the hint timer if the player is actually looking at a solvable step.
+        if (hints != null && state == State.ACTIVE) {
             hints.start();
         }
     }
 
     public void destroy() {
         destroyed = true;
+        paused = false;
         cancelPendingWork();
         if (hints != null) {
             hints.onDestroy();
@@ -201,6 +217,12 @@ public final class TaskManager implements HintController.Provider, TaskContext.C
 
     private void cancelPendingWork() {
         handler.removeCallbacksAndMessages(null);
+    }
+
+    private void hintsHide() {
+        if (hints != null) {
+            hints.hide();
+        }
     }
 
     // ---------------------------------------------------------------- sequencing
@@ -252,7 +274,8 @@ public final class TaskManager implements HintController.Provider, TaskContext.C
         currentTask.attach();
         state = currentTask.usesTray() ? State.ACTIVE : State.MINIGAME;
         drag.setEnabled(currentTask.usesTray());
-        if (hints != null) {
+        // A tray slide started before onPause can land after it; resume() re-arms in that case.
+        if (hints != null && !paused) {
             hints.start();
         }
     }

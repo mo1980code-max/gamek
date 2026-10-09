@@ -215,9 +215,11 @@ button reports failure (from `onDestroyView`), so the task re-offers it instead 
 semantics, progress, reset, custom step lists and the empty-list guard. `TaskFlow` and `TaskStep`
 have no `android.*` imports by design, which is what makes them testable without Robolectric.
 
-The view and input layers are covered by their own seams rather than tests: `DragDropHelper` is pure
-geometry (`rectIn`, `overlapArea`, `bestHit`) and `HitZone` is pure maths, so both are easy to add JVM
-tests for if you want them.
+The view and input layers are not unit-tested — they lean on `android.view`/`android.graphics`, which
+would need Robolectric or instrumentation to exercise. They are instead kept narrow on purpose:
+`DragDropHelper` is four static geometry functions (`rectIn`, `isDescendantOf`, `overlapArea`,
+`bestHit`) and `HitZone` is a rect plus three factories, so if you want coverage, adding Robolectric
+and testing those two classes first buys the most for the least setup.
 
 ---
 
