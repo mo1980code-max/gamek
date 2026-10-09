@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#7c4dff">
+<title>Baby Jini 3D Daycare Adventure 🍼</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍼</text></svg>">
+<link rel="stylesheet" href="style.css">
+<script src="lib/es-module-shims.js"></script>
+<script type="importmap">
+{ "imports": { "three": "./lib/three.module.min.js" } }
+</script>
+</head>
+<body>
+<div id="app">
+  <div id="canvas-wrap"></div>
+
+  <!-- ===== Loading screen ===== -->
+  <div id="loading" class="screen">
+    <div class="loading-inner">
+      <div class="loading-logo">🍼</div>
+      <h1 class="game-title">Baby Jini<br><span>3D Daycare Adventure</span></h1>
+      <div class="loading-bar-wrap"><div id="loading-bar"></div></div>
+      <div id="loading-tip">جارٍ تحضير الحضانة…</div>
+    </div>
+    <div class="loading-clouds">☁️ ☁️ ☁️</div>
+  </div>
+
+  <!-- ===== Main menu ===== -->
+  <div id="menu" class="screen hidden">
+    <div class="menu-inner">
+      <div class="menu-logo">👶🍼</div>
+      <h1 class="game-title big">Baby Jini<br><span>3D Daycare Adventure</span></h1>
+      <div class="menu-buttons">
+        <button id="btn-play"     class="btn-menu btn-play">    <span class="mi">🎮</span> العب الآن <small>PLAY</small></button>
+        <button id="btn-babies"   class="btn-menu btn-babies">  <span class="mi">👶</span> الأطفال <small>BABIES</small></button>
+        <button id="btn-rooms"    class="btn-menu btn-rooms">   <span class="mi">🏠</span> الغرف <small>ROOMS</small></button>
+        <button id="btn-dress"    class="btn-menu btn-dress">   <span class="mi">👕</span> الملابس <small>DRESS UP</small></button>
+        <button id="btn-rewards"  class="btn-menu btn-rewards"> <span class="mi">🏆</span> المكافآت <small>REWARDS</small></button>
+        <button id="btn-settings" class="btn-menu btn-settings"><span class="mi">⚙️</span> الإعدادات <small>SETTINGS</small></button>
+      </div>
+      <div id="menu-hint">اضغط «العب الآن» لبدء رعاية الأطفال!</div>
+    </div>
+  </div>
+
+  <!-- ===== HUD (in-game) ===== -->
+  <div id="hud" class="hidden">
+    <div class="hud-top">
+      <div class="hud-chip" id="chip-coins"><span>🪙</span><b id="hud-coins">0</b></div>
+      <div class="hud-chip" id="chip-stars"><span>⭐</span><b id="hud-stars">0</b></div>
+      <div class="hud-room" id="hud-room">🏠 الصالة</div>
+      <button id="hud-settings" class="hud-btn">⚙️</button>
+      <button id="hud-sound" class="hud-btn">🔊</button>
+    </div>
+    <div id="room-steps" class="room-steps hidden"></div>
+    <div id="room-hint" class="room-hint hidden"></div>
+    <div id="need-bars" class="need-bars hidden"></div>
+    <div class="hud-bottom" id="bottom-nav">
+      <button class="nav-btn" data-nav="home">   <span>🏠</span><small>المنزل</small></button>
+      <button class="nav-btn" data-nav="babies"> <span>👶</span><small>الأطفال</small></button>
+      <button class="nav-btn" data-nav="rooms">  <span>🗺️</span><small>الغرف</small></button>
+      <button class="nav-btn" data-nav="tasks">  <span>📋</span><small>المهام</small></button>
+      <button class="nav-btn" data-nav="shop">   <span>🛒</span><small>المتجر</small></button>
+    </div>
+  </div>
+
+  <!-- ===== Overlays ===== -->
+  <div id="overlay-root" class="hidden"></div>
+  <div id="toast-root"></div>
+  <div id="flash"></div>
+</div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
