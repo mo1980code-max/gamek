@@ -1,0 +1,11 @@
+{
+  "name": "baby-jini-3d-daycare",
+  "version": "1.0.0",
+  "description": "Baby Jini 3D Daycare Adventure — a complete HTML5 + Three.js 3D baby daycare game",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --bind 0.0.0.0",
+    "check": "node tools/syntax-check.mjs"
+  },
+  "license": "MIT"
+}
