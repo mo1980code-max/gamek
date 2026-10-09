@@ -395,7 +395,11 @@ export class Baby extends THREE.Group {
   }
   showBubble(emoji, secs = 2.2) {
     if (!emoji) return;
-    this.bubbleSprite.material.map = emojiSprite(emoji, { size: 1, bg: '#ffffff' }).material.map;
+    const map = emojiSprite(emoji, { size: 1, bg: '#ffffff' }).material.map;
+    if (this.bubbleSprite.material.map !== map) {
+      this.bubbleSprite.material.map = map;
+      this.bubbleSprite.material.needsUpdate = true;
+    }
     this.bubbleSprite.visible = true;
     this._bubbleT = secs;
   }
