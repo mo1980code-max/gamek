@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Baby-powder veil. Its alpha tracks BabyScene.setPowderAmount. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M10,52a20,20 0 1,0 40,0a20,20 0 1,0 -40,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M28,42a24,24 0 1,0 48,0a24,24 0 1,0 -48,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M52,56a18,18 0 1,0 36,0a18,18 0 1,0 -36,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M27,68a17,17 0 1,0 34,0a17,17 0 1,0 -34,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:pathData="M49,72a13,13 0 1,0 26,0a13,13 0 1,0 -26,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"
+        android:pathData="M15,34a9,9 0 1,0 18,0a9,9 0 1,0 -18,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.35"
+        android:pathData="M72,36a8,8 0 1,0 16,0a8,8 0 1,0 -16,0Z" />
+</vector>

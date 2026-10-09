@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Surprised face: wide eyes and high brows. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M22,46a11,11 0 1,0 22,0a11,11 0 1,0 -22,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,46a11,11 0 1,0 22,0a11,11 0 1,0 -22,0Z" />
+    <path
+        android:fillColor="#4A3B33"
+        android:pathData="M27.6,46a5.4,5.4 0 1,0 10.8,0a5.4,5.4 0 1,0 -10.8,0Z" />
+    <path
+        android:fillColor="#4A3B33"
+        android:pathData="M57.6,46a5.4,5.4 0 1,0 10.8,0a5.4,5.4 0 1,0 -10.8,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28.6,43.4a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58.6,43.4a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0Z" />
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,28Q33,22 42,27M54,27Q63,22 72,28" />
+    <path
+        android:fillColor="#FFB3C4"
+        android:fillAlpha="0.5"
+        android:pathData="M16,60a7,4 0 1,0 14,0a7,4 0 1,0 -14,0Z" />
+    <path
+        android:fillColor="#FFB3C4"
+        android:fillAlpha="0.5"
+        android:pathData="M66,60a7,4 0 1,0 14,0a7,4 0 1,0 -14,0Z" />
+</vector>

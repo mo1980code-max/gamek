@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Runny nose with a drip. Fades and shrinks as the tissue wipes it away. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#F3C39C"
+        android:pathData="M33,34a15,12 0 1,0 30,0a15,12 0 1,0 -30,0Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M38,32a10,7 0 1,0 20,0a10,7 0 1,0 -20,0Z" />
+    <path
+        android:fillColor="#D79E77"
+        android:pathData="M39.6,36a2.4,2.4 0 1,0 4.8,0a2.4,2.4 0 1,0 -4.8,0Z" />
+    <path
+        android:fillColor="#D79E77"
+        android:pathData="M51.6,36a2.4,2.4 0 1,0 4.8,0a2.4,2.4 0 1,0 -4.8,0Z" />
+    <path
+        android:fillColor="#BFE6A8"
+        android:pathData="M42,42L54,42L52,72L48,82L44,72Z" />
+    <path
+        android:fillColor="#BFE6A8"
+        android:pathData="M42,78a6,6 0 1,0 12,0a6,6 0 1,0 -12,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M43.8,76a1.8,1.8 0 1,0 3.6,0a1.8,1.8 0 1,0 -3.6,0Z" />
+</vector>

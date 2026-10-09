@@ -1,0 +1,9 @@
+// Top-level build file. Plugins are declared here (without `apply`) so that every
+// module can opt in with a one-line `apply plugin:` in its own build.gradle.
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.layout.buildDirectory
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nursery wall. A shape gradient (not a vector gradient) so it also works on API 21-23. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:centerColor="#FFF1E4"
+        android:endColor="#FFE2EE"
+        android:startColor="#E7F4FF"
+        android:type="linear" />
+</shape>

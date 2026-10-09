@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 3: a soft tissue, held by its lower corner (focus point sits low). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,24L78,18L86,66L24,78Z" />
+    <path
+        android:strokeColor="#DDE6EC"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M16,24L78,18L86,66L24,78Z" />
+    <path
+        android:fillColor="#F4F9FC"
+        android:pathData="M28,30L72,26L76,50L32,56Z" />
+    <path
+        android:strokeColor="#DDE6EC"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,40Q50,34 70,38" />
+    <path
+        android:strokeColor="#DDE6EC"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M32,52Q52,46 74,52" />
+    <path
+        android:fillColor="#EAF1F6"
+        android:pathData="M24,78L86,66L82,80L26,88Z" />
+</vector>

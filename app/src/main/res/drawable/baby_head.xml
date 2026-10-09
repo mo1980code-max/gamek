@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Head shape with ears. Eyes, nose and mouth are separate overlays so they can change. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M-1.5,52a9.5,9.5 0 1,0 19,0a9.5,9.5 0 1,0 -19,0Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M78.5,52a9.5,9.5 0 1,0 19,0a9.5,9.5 0 1,0 -19,0Z" />
+    <path
+        android:strokeColor="#F3C39C"
+        android:strokeWidth="2.6"
+        android:fillColor="#00000000"
+        android:pathData="M-1.5,52a9.5,9.5 0 1,0 19,0a9.5,9.5 0 1,0 -19,0Z" />
+    <path
+        android:strokeColor="#F3C39C"
+        android:strokeWidth="2.6"
+        android:fillColor="#00000000"
+        android:pathData="M78.5,52a9.5,9.5 0 1,0 19,0a9.5,9.5 0 1,0 -19,0Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M9,50a39,42 0 1,0 78,0a39,42 0 1,0 -78,0Z" />
+    <path
+        android:strokeColor="#F3C39C"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M9,50a39,42 0 1,0 78,0a39,42 0 1,0 -78,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.18"
+        android:pathData="M28,74a20,12 0 1,0 40,0a20,12 0 1,0 -40,0Z" />
+</vector>

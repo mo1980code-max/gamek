@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overgrown toenail; tappable target in the mini-game. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFF6E8"
+        android:pathData="M42,24h12a14,14 0 0,1 14,14v16a14,14 0 0,1 -14,14h-12a14,14 0 0,1 -14,-14v-16a14,14 0 0,1 14,-14Z" />
+    <path
+        android:strokeColor="#E3CBA9"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M42,24h12a14,14 0 0,1 14,14v16a14,14 0 0,1 -14,14h-12a14,14 0 0,1 -14,-14v-16a14,14 0 0,1 14,-14Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"
+        android:pathData="M43.04,30h9.92a7.04,7.04 0 0,1 7.04,7.04v0a7.04,7.04 0 0,1 -7.04,7.04h-9.92a7.04,7.04 0 0,1 -7.04,-7.04v0a7.04,7.04 0 0,1 7.04,-7.04Z" />
+    <path
+        android:fillColor="#F6E3C8"
+        android:pathData="M30,66L66,66L60,78L36,78Z" />
+    <path
+        android:strokeColor="#EAD3B4"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M36,30L60,30" />
+</vector>

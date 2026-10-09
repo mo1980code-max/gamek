@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Happy face: eyes closed in smiles, raised brows, strong blush. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:strokeColor="#4A3B33"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,48Q33,38 42,48" />
+    <path
+        android:strokeColor="#4A3B33"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,48Q63,38 72,48" />
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,30Q33,25 41,30M55,30Q63,25 71,30" />
+    <path
+        android:fillColor="#FFB3C4"
+        android:fillAlpha="0.75"
+        android:pathData="M12.5,60a9.5,5.4 0 1,0 19,0a9.5,5.4 0 1,0 -19,0Z" />
+    <path
+        android:fillColor="#FFB3C4"
+        android:fillAlpha="0.75"
+        android:pathData="M64.5,60a9.5,5.4 0 1,0 19,0a9.5,5.4 0 1,0 -19,0Z" />
+</vector>

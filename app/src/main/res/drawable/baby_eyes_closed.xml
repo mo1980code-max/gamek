@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Blink overlay: closed lids with lashes, faded in for ~130 ms by BabyScene. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:strokeColor="#4A3B33"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,47Q33,55 42,47" />
+    <path
+        android:strokeColor="#4A3B33"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,47Q63,55 72,47" />
+    <path
+        android:strokeColor="#4A3B33"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,47L20,51M42,47L46,51M54,47L50,51M72,47L76,51" />
+</vector>

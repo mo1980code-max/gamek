@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 7: dosing spoon with pink medicine. The bowl is the focus point. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFE9C7"
+        android:pathData="M50,30h0a6,6 0 0,1 6,6v48a6,6 0 0,1 -6,6h0a6,6 0 0,1 -6,-6v-48a6,6 0 0,1 6,-6Z" />
+    <path
+        android:strokeColor="#E8CFA6"
+        android:strokeWidth="2.6"
+        android:fillColor="#00000000"
+        android:pathData="M50,30h0a6,6 0 0,1 6,6v48a6,6 0 0,1 -6,6h0a6,6 0 0,1 -6,-6v-48a6,6 0 0,1 6,-6Z" />
+    <path
+        android:fillColor="#FFF3DF"
+        android:pathData="M28,24a22,18 0 1,0 44,0a22,18 0 1,0 -44,0Z" />
+    <path
+        android:strokeColor="#E8CFA6"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M28,24a22,18 0 1,0 44,0a22,18 0 1,0 -44,0Z" />
+    <path
+        android:fillColor="#FF9EB5"
+        android:pathData="M34,26a16,12 0 1,0 32,0a16,12 0 1,0 -32,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M39,22a6,4 0 1,0 12,0a6,4 0 1,0 -12,0Z" />
+    <path
+        android:fillColor="#E8CFA6"
+        android:pathData="M42,84h16a4,4 0 0,1 4,4v0a4,4 0 0,1 -4,4h-16a4,4 0 0,1 -4,-4v0a4,4 0 0,1 4,-4Z" />
+</vector>

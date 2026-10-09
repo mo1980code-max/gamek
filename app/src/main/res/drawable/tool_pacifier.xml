@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 11: the pacifier. Its shield lands on the mouth, so the focus point is low. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:strokeColor="#7FE3E0"
+        android:strokeWidth="7"
+        android:fillColor="#00000000"
+        android:pathData="M28,66a20,20 0 1,0 40,0a20,20 0 1,0 -40,0Z" />
+    <path
+        android:fillColor="#7FE3E0"
+        android:pathData="M21,44a27,15 0 1,0 54,0a27,15 0 1,0 -54,0Z" />
+    <path
+        android:strokeColor="#59C6C3"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M21,44a27,15 0 1,0 54,0a27,15 0 1,0 -54,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M34.6,42a3.4,3.4 0 1,0 6.8,0a3.4,3.4 0 1,0 -6.8,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M54.6,42a3.4,3.4 0 1,0 6.8,0a3.4,3.4 0 1,0 -6.8,0Z" />
+    <path
+        android:fillColor="#FFD44D"
+        android:pathData="M36,26a12,13 0 1,0 24,0a12,13 0 1,0 -24,0Z" />
+    <path
+        android:fillColor="#FFE28A"
+        android:pathData="M40,22a8,8 0 1,0 16,0a8,8 0 1,0 -16,0Z" />
+    <path
+        android:fillColor="#59C6C3"
+        android:pathData="M39,40a9,5 0 1,0 18,0a9,5 0 1,0 -18,0Z" />
+</vector>

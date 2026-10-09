@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Upset face: down-turned brows and watery eyes. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M23.6,46a9.4,9.4 0 1,0 18.8,0a9.4,9.4 0 1,0 -18.8,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53.6,46a9.4,9.4 0 1,0 18.8,0a9.4,9.4 0 1,0 -18.8,0Z" />
+    <path
+        android:fillColor="#4A3B33"
+        android:pathData="M28.6,48a5.4,5.4 0 1,0 10.8,0a5.4,5.4 0 1,0 -10.8,0Z" />
+    <path
+        android:fillColor="#4A3B33"
+        android:pathData="M58.6,48a5.4,5.4 0 1,0 10.8,0a5.4,5.4 0 1,0 -10.8,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M29.6,45.4a2,2 0 1,0 4,0a2,2 0 1,0 -4,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59.6,45.4a2,2 0 1,0 4,0a2,2 0 1,0 -4,0Z" />
+    <path
+        android:strokeColor="#8D6E63"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,32Q33,37 41,33M55,33Q63,37 71,32" />
+    <path
+        android:fillColor="#FFB3C4"
+        android:fillAlpha="0.4"
+        android:pathData="M15.5,62a7.5,4.2 0 1,0 15,0a7.5,4.2 0 1,0 -15,0Z" />
+    <path
+        android:fillColor="#FFB3C4"
+        android:fillAlpha="0.4"
+        android:pathData="M65.5,62a7.5,4.2 0 1,0 15,0a7.5,4.2 0 1,0 -15,0Z" />
+    <path
+        android:fillAlpha="0.9"
+        android:strokeColor="#9FC7E8"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M27,40Q33,44 39,40" />
+</vector>

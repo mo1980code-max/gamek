@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The whole game screen, in paint order.
+
+    clickable="true" on the root is load-bearing: the DragController is installed as the root's
+    OnTouchListener, and Android only keeps delivering MOVE/UP to a listener if the view's
+    onTouchEvent consumed the DOWN. A plain non-clickable FrameLayout would swallow the gesture
+    after the first event and dragging would stop working.
+
+    Layer order:
+      background -> baby -> particles -> HUD -> tray -> drag layer -> hint layer -> celebration
+    The drag layer sits ABOVE the tray so the lifted tool renders over it, and it is transparent and
+    non-clickable so touches fall straight through to the root. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/game_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_room"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.gamek.daycare.view.BabyScene
+        android:id="@+id/baby_scene"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.gamek.daycare.view.ParticleEmitterView
+        android:id="@+id/fx_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- HUD -->
+    <LinearLayout
+        android:id="@+id/hud_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="14dp">
+
+        <com.gamek.daycare.view.TaskProgressHud
+            android:id="@+id/task_hud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/btn_sound"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/bg_circle_button"
+            android:clickable="true"
+            android:contentDescription="@string/cd_toggle_sound"
+            android:focusable="true"
+            android:padding="9dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_sound_on" />
+
+        <ImageView
+            android:id="@+id/btn_restart"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_circle_button"
+            android:clickable="true"
+            android:contentDescription="@string/cd_restart"
+            android:focusable="true"
+            android:padding="9dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_restart" />
+    </LinearLayout>
+
+    <!-- per-step progress: the thin bar under the dots -->
+    <ProgressBar
+        android:id="@+id/step_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="24dp"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_step" />
+
+    <!-- current instruction, bottom-left, well away from the tray -->
+    <TextView
+        android:id="@+id/hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/bg_hint_bubble"
+        android:fontFamily="sans-serif-medium"
+        android:maxWidth="230dp"
+        android:paddingStart="16dp"
+        android:paddingTop="9dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="9dp"
+        android:textColor="@color/text_title"
+        android:textSize="14sp" />
+
+    <!-- tray -->
+    <!-- Docked bottom-right and pushed 40dp off-screen by the negative end margin; TrayController
+        measures its own size and animates the rest of the way out, so the hidden offset is correct
+        on every device. -->
+    <com.gamek.daycare.view.TrayController
+        android:id="@+id/tray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="-40dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/tray_hand"
+            android:layout_width="142dp"
+            android:layout_height="150dp"
+            android:layout_gravity="bottom|end"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tray_hand" />
+
+        <ImageView
+            android:id="@+id/tray_tool"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="62dp"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tool_diaper_dirty" />
+    </com.gamek.daycare.view.TrayController>
+
+    <!-- interaction layers -->
+    <FrameLayout
+        android:id="@+id/drag_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <FrameLayout
+        android:id="@+id/hint_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <!-- Container for popup mini-games added with getChildFragmentManager(). Above the hint layer so
+        a mini-game covers the hint hand, below the celebration so the two can never overlap. -->
+    <FrameLayout
+        android:id="@+id/mini_game_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.gamek.daycare.view.CompletionOverlay
+        android:id="@+id/completion_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</FrameLayout>

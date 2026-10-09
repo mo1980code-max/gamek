@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 4: rash-cream tube with a dollop at the nozzle (the focus point). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#E4608C"
+        android:pathData="M39,8h10a5,5 0 0,1 5,5v4a5,5 0 0,1 -5,5h-10a5,5 0 0,1 -5,-5v-4a5,5 0 0,1 5,-5Z" />
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M34,20h20a6,6 0 0,1 6,6v0a6,6 0 0,1 -6,6h-20a6,6 0 0,1 -6,-6v0a6,6 0 0,1 6,-6Z" />
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M26,30L70,30L64,86L32,86Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M26,30L70,30L64,86L32,86Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M44,42h8a8,8 0 0,1 8,8v10a8,8 0 0,1 -8,8h-8a8,8 0 0,1 -8,-8v-10a8,8 0 0,1 8,-8Z" />
+    <path
+        android:fillColor="#FF6F6F"
+        android:fillAlpha="0.75"
+        android:pathData="M42,52a6,6 0 1,0 12,0a6,6 0 1,0 -12,0Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M42,62h12" />
+    <path
+        android:fillColor="#E4608C"
+        android:pathData="M34,80h28a4,4 0 0,1 4,4v0a4,4 0 0,1 -4,4h-28a4,4 0 0,1 -4,-4v0a4,4 0 0,1 4,-4Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"
+        android:pathData="M70,22a6,6 0 1,0 12,0a6,6 0 1,0 -12,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M80,30a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+</vector>

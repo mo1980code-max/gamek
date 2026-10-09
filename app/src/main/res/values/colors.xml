@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand / UI -->
+    <color name="game_background">#FFF1E4</color>
+    <color name="text_title">#6D4C41</color>
+    <color name="text_body">#8D6E63</color>
+    <color name="scrim">#8C000000</color>
+
+    <color name="pink">#FF87AC</color>
+    <color name="pink_dark">#E4608C</color>
+    <color name="blue">#5FB8F2</color>
+    <color name="blue_dark">#2F8FD3</color>
+    <color name="green">#63D9A0</color>
+    <color name="green_dark">#33B278</color>
+    <color name="yellow">#FFD44D</color>
+    <color name="cream">#FFF8EC</color>
+
+    <!-- Launcher -->
+    <color name="ic_launcher_background">#FFE2EE</color>
+
+</resources>

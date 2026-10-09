@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    API 27+ only: let the scene run into the display cutout. Kept in a versioned folder because the
+    attribute does not exist below 27 and would break inflation on API 21-26 devices.
+-->
+<resources>
+
+    <style name="Theme.DayCareGame.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+</resources>

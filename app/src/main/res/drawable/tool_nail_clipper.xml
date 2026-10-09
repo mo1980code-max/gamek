@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 6: nail clippers, shown in the tray before the mini-game takes over. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#C3CCD6"
+        android:pathData="M18,58L66,34L74,46L26,70Z" />
+    <path
+        android:strokeColor="#98A4B0"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M18,58L66,34L74,46L26,70Z" />
+    <path
+        android:fillColor="#D6DEE6"
+        android:pathData="M22,66L70,42L78,54L30,78Z" />
+    <path
+        android:strokeColor="#98A4B0"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M22,66L70,42L78,54L30,78Z" />
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M66,20h14a6,6 0 0,1 6,6v0a6,6 0 0,1 -6,6h-14a6,6 0 0,1 -6,-6v0a6,6 0 0,1 6,-6Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="2.6"
+        android:fillColor="#00000000"
+        android:pathData="M66,20h14a6,6 0 0,1 6,6v0a6,6 0 0,1 -6,6h-14a6,6 0 0,1 -6,-6v0a6,6 0 0,1 6,-6Z" />
+    <path
+        android:fillColor="#98A4B0"
+        android:pathData="M18,64a6,6 0 1,0 12,0a6,6 0 1,0 -12,0Z" />
+    <path
+        android:strokeColor="#98A4B0"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M70,36L84,26" />
+</vector>

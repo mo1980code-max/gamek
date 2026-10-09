@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft round play mat the baby sits on. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="#FFD9E6"
+        android:pathData="M2,52a48,42 0 1,0 96,0a48,42 0 1,0 -96,0Z" />
+    <path
+        android:fillColor="#FFF0F5"
+        android:pathData="M9,52a41,35 0 1,0 82,0a41,35 0 1,0 -82,0Z" />
+    <path
+        android:fillColor="#FFE7F0"
+        android:pathData="M20,52a30,25 0 1,0 60,0a30,25 0 1,0 -60,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.75"
+        android:pathData="M18.6,34a3.4,3.4 0 1,0 6.8,0a3.4,3.4 0 1,0 -6.8,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M73.4,30a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M80.8,62a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"
+        android:pathData="M13.2,66a2.8,2.8 0 1,0 5.6,0a2.8,2.8 0 1,0 -5.6,0Z" />
+</vector>

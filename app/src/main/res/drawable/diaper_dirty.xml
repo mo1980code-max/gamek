@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Used diaper: dingy cream with stains. Dragged to the bin in step 1. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#E4DCC6"
+        android:pathData="M12,26L84,26L78,62L62,84L34,84L18,62Z" />
+    <path
+        android:strokeColor="#C4B998"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M12,26L84,26L78,62L62,84L34,84L18,62Z" />
+    <path
+        android:fillColor="#CFC4A6"
+        android:pathData="M16,20h64a6,6 0 0,1 6,6v0a6,6 0 0,1 -6,6h-64a6,6 0 0,1 -6,-6v0a6,6 0 0,1 6,-6Z" />
+    <path
+        android:fillColor="#B9A86F"
+        android:fillAlpha="0.85"
+        android:pathData="M28,56a18,14 0 1,0 36,0a18,14 0 1,0 -36,0Z" />
+    <path
+        android:fillColor="#A89A62"
+        android:fillAlpha="0.7"
+        android:pathData="M51,44a9,7 0 1,0 18,0a9,7 0 1,0 -18,0Z" />
+    <path
+        android:fillColor="#A89A62"
+        android:fillAlpha="0.6"
+        android:pathData="M29.4,44a4.6,4.6 0 1,0 9.2,0a4.6,4.6 0 1,0 -9.2,0Z" />
+    <path
+        android:strokeColor="#8F9B5A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M22,36Q28,44 24,52" />
+</vector>

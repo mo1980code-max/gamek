@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ribbon banner behind the celebration title. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="104dp"
+    android:viewportWidth="300"
+    android:viewportHeight="104">
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M20,26L280,26L268,52L280,78L20,78L32,52Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M20,26L280,26L268,52L280,78L20,78L32,52Z" />
+    <path
+        android:fillColor="#FFD44D"
+        android:pathData="M2,16L34,26L34,78L2,90L14,52Z" />
+    <path
+        android:fillColor="#FFD44D"
+        android:pathData="M298,16L266,26L266,78L298,90L286,52Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M76,35L80.41,45.93L92.17,46.75L83.13,54.32L85.99,65.75L76,59.5L66.01,65.75L68.87,54.32L59.83,46.75L71.59,45.93Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95"
+        android:pathData="M150,31L155.29,44.72L169.97,45.51L158.56,54.78L162.34,68.99L150,61L137.66,68.99L141.44,54.78L130.03,45.51L144.71,44.72Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M224,35L228.41,45.93L240.17,46.75L231.13,54.32L233.99,65.75L224,59.5L214.01,65.75L216.87,54.32L207.83,46.75L219.59,45.93Z" />
+</vector>

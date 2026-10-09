@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base game theme. NoActionBar because the game draws its own HUD. -->
+    <style name="Theme.DayCareGame" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_room</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/pink_dark</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/text_title</item>
+        <!-- No overscroll glow: it looks wrong on a cartoon scene. -->
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <!-- Applied to the game Activity on top of the base theme. -->
+    <style name="Theme.DayCareGame.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+</resources>

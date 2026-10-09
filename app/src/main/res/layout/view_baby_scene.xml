@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The baby and the room, generated from a single table of fractional positions.
+
+    Every view is anchored to the parent with layout_constraint*_percent, because in
+    ConstraintLayout a percentage is ALWAYS relative to the parent - never to the view it
+    is constrained to. Anchoring everything to the parent keeps the artwork and the Java
+    HitZones (which are built from these very views) on exactly the same coordinates, on
+    any screen size. -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scene_inner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/baby_mat"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bg_playmat"
+        app:layout_constraintWidth_percent="0.980"
+        app:layout_constraintHeight_percent="0.620"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.7632"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_body"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baby_body"
+        app:layout_constraintWidth_percent="0.520"
+        app:layout_constraintHeight_percent="0.400"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.6333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_head"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baby_head"
+        app:layout_constraintWidth_percent="0.460"
+        app:layout_constraintHeight_percent="0.300"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.1286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_face"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/face_neutral"
+        app:layout_constraintWidth_percent="0.360"
+        app:layout_constraintHeight_percent="0.200"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.2125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_eyelids"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baby_eyes_closed"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.360"
+        app:layout_constraintHeight_percent="0.200"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.2125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_nose_runny"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nose_runny"
+        app:layout_constraintWidth_percent="0.090"
+        app:layout_constraintHeight_percent="0.060"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.2872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_mouth"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/mouth_closed"
+        app:layout_constraintWidth_percent="0.110"
+        app:layout_constraintHeight_percent="0.055"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.3360"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_tears"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baby_tears"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.300"
+        app:layout_constraintHeight_percent="0.100"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.2611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_pacifier"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tool_pacifier"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.120"
+        app:layout_constraintHeight_percent="0.070"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.3409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_hair"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hair_messy"
+        app:layout_constraintWidth_percent="0.440"
+        app:layout_constraintHeight_percent="0.140"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.0523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/hair_wet"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/hair_wet_overlay"
+        android:alpha="0.6"
+        app:layout_constraintWidth_percent="0.400"
+        app:layout_constraintHeight_percent="0.120"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.0682"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaper_dirty"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/diaper_dirty"
+        app:layout_constraintWidth_percent="0.340"
+        app:layout_constraintHeight_percent="0.150"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.7353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/diaper_fresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/diaper_clean_on"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.340"
+        app:layout_constraintHeight_percent="0.150"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.7353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/sticker_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/diaper_sticker"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.070"
+        app:layout_constraintHeight_percent="0.050"
+        app:layout_constraintHorizontal_bias="0.3441"
+        app:layout_constraintVertical_bias="0.6768"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/sticker_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/diaper_sticker"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.070"
+        app:layout_constraintHeight_percent="0.050"
+        app:layout_constraintHorizontal_bias="0.6559"
+        app:layout_constraintVertical_bias="0.6768"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/rash_spot_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rash_spot"
+        app:layout_constraintWidth_percent="0.060"
+        app:layout_constraintHeight_percent="0.045"
+        app:layout_constraintHorizontal_bias="0.3936"
+        app:layout_constraintVertical_bias="0.5000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/rash_spot_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rash_spot"
+        app:layout_constraintWidth_percent="0.050"
+        app:layout_constraintHeight_percent="0.040"
+        app:layout_constraintHorizontal_bias="0.5789"
+        app:layout_constraintVertical_bias="0.4635"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/rash_spot_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rash_spot"
+        app:layout_constraintWidth_percent="0.055"
+        app:layout_constraintHeight_percent="0.042"
+        app:layout_constraintHorizontal_bias="0.6376"
+        app:layout_constraintVertical_bias="0.5470"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/powder_veil"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/powder_cloud"
+        android:alpha="0.0"
+        app:layout_constraintWidth_percent="0.460"
+        app:layout_constraintHeight_percent="0.220"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.6795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/face_dirt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/face_dirt"
+        app:layout_constraintWidth_percent="0.300"
+        app:layout_constraintHeight_percent="0.120"
+        app:layout_constraintHorizontal_bias="0.5000"
+        app:layout_constraintVertical_bias="0.2784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_hand_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baby_hand_nails_long"
+        app:layout_constraintWidth_percent="0.120"
+        app:layout_constraintHeight_percent="0.100"
+        app:layout_constraintHorizontal_bias="0.2102"
+        app:layout_constraintVertical_bias="0.5000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/baby_hand_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baby_hand_nails_long"
+        app:layout_constraintWidth_percent="0.120"
+        app:layout_constraintHeight_percent="0.100"
+        app:layout_constraintHorizontal_bias="0.7898"
+        app:layout_constraintVertical_bias="0.5000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/trash_bin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/cd_trash_bin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/trash_bin"
+        app:layout_constraintWidth_percent="0.220"
+        app:layout_constraintHeight_percent="0.160"
+        app:layout_constraintHorizontal_bias="0.0385"
+        app:layout_constraintVertical_bias="0.9107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/trash_bin_lid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/trash_bin_lid"
+        app:layout_constraintWidth_percent="0.260"
+        app:layout_constraintHeight_percent="0.045"
+        app:layout_constraintHorizontal_bias="0.0135"
+        app:layout_constraintVertical_bias="0.7880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

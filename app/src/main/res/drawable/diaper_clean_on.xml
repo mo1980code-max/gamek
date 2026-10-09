@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fresh diaper with blue waistband and side tabs. Fades in when step 2 lands it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,26L84,26L78,62L62,84L34,84L18,62Z" />
+    <path
+        android:strokeColor="#CFE3F2"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M12,26L84,26L78,62L62,84L34,84L18,62Z" />
+    <path
+        android:fillColor="#5FB8F2"
+        android:pathData="M16.5,20h63a6.5,6.5 0 0,1 6.5,6.5v0a6.5,6.5 0 0,1 -6.5,6.5h-63a6.5,6.5 0 0,1 -6.5,-6.5v0a6.5,6.5 0 0,1 6.5,-6.5Z" />
+    <path
+        android:strokeColor="#2F8FD3"
+        android:strokeWidth="2.4"
+        android:fillColor="#00000000"
+        android:pathData="M16.5,20h63a6.5,6.5 0 0,1 6.5,6.5v0a6.5,6.5 0 0,1 -6.5,6.5h-63a6.5,6.5 0 0,1 -6.5,-6.5v0a6.5,6.5 0 0,1 6.5,-6.5Z" />
+    <path
+        android:fillColor="#DCEBF7"
+        android:pathData="M33,54a5,5 0 1,0 10,0a5,5 0 1,0 -10,0Z" />
+    <path
+        android:fillColor="#DCEBF7"
+        android:pathData="M52,62a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+    <path
+        android:fillColor="#EAF4FC"
+        android:pathData="M48,43L50.35,48.76L56.56,49.22L51.8,53.24L53.29,59.28L48,56L42.71,59.28L44.2,53.24L39.44,49.22L45.65,48.76Z" />
+    <path
+        android:fillColor="#5FB8F2"
+        android:fillAlpha="0.85"
+        android:pathData="M10,34h2a6,6 0 0,1 6,6v6a6,6 0 0,1 -6,6h-2a6,6 0 0,1 -6,-6v-6a6,6 0 0,1 6,-6Z" />
+    <path
+        android:fillColor="#5FB8F2"
+        android:fillAlpha="0.85"
+        android:pathData="M84,34h2a6,6 0 0,1 6,6v6a6,6 0 0,1 -6,6h-2a6,6 0 0,1 -6,-6v-6a6,6 0 0,1 6,-6Z" />
+</vector>

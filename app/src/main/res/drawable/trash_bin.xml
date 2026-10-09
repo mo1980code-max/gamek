@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nursery bin. The lid lifts while the dirty diaper approaches. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#C3CCD6"
+        android:pathData="M16,18L80,18L72,88L24,88Z" />
+    <path
+        android:strokeColor="#98A4B0"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M16,18L80,18L72,88L24,88Z" />
+    <path
+        android:fillColor="#98A4B0"
+        android:pathData="M17,10h62a7,7 0 0,1 7,7v0a7,7 0 0,1 -7,7h-62a7,7 0 0,1 -7,-7v0a7,7 0 0,1 7,-7Z" />
+    <path
+        android:strokeColor="#98A4B0"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M36,32L38,78M48,32L48,78M60,32L58,78" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.25"
+        android:pathData="M20,24L30,24L28,80L24,80Z" />
+</vector>

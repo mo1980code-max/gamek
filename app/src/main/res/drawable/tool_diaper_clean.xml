@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 2: a folded fresh diaper with its blue waistband. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,26h40a14,14 0 0,1 14,14v22a14,14 0 0,1 -14,14h-40a14,14 0 0,1 -14,-14v-22a14,14 0 0,1 14,-14Z" />
+    <path
+        android:strokeColor="#CFE3F2"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M28,26h40a14,14 0 0,1 14,14v22a14,14 0 0,1 -14,14h-40a14,14 0 0,1 -14,-14v-22a14,14 0 0,1 14,-14Z" />
+    <path
+        android:fillColor="#5FB8F2"
+        android:pathData="M21,44h54a7,7 0 0,1 7,7v0a7,7 0 0,1 -7,7h-54a7,7 0 0,1 -7,-7v0a7,7 0 0,1 7,-7Z" />
+    <path
+        android:strokeColor="#2F8FD3"
+        android:strokeWidth="2.4"
+        android:fillColor="#00000000"
+        android:pathData="M21,44h54a7,7 0 0,1 7,7v0a7,7 0 0,1 -7,7h-54a7,7 0 0,1 -7,-7v0a7,7 0 0,1 7,-7Z" />
+    <path
+        android:fillColor="#DCEBF7"
+        android:pathData="M48,25L50.35,30.76L56.56,31.22L51.8,35.24L53.29,41.28L48,38L42.71,41.28L44.2,35.24L39.44,31.22L45.65,30.76Z" />
+    <path
+        android:fillColor="#EAF4FC"
+        android:pathData="M26,66a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+    <path
+        android:fillColor="#EAF4FC"
+        android:pathData="M60,66a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+    <path
+        android:strokeColor="#EAF4FC"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M22,30Q48,20 74,30" />
+</vector>

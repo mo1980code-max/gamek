@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 9: hair dryer. Air leaves the nozzle on the left, hence focus x = 0.22. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M40,20h22a16,16 0 0,1 16,16v2a16,16 0 0,1 -16,16h-22a16,16 0 0,1 -16,-16v-2a16,16 0 0,1 16,-16Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M40,20h22a16,16 0 0,1 16,16v2a16,16 0 0,1 -16,16h-22a16,16 0 0,1 -16,-16v-2a16,16 0 0,1 16,-16Z" />
+    <path
+        android:fillColor="#FFD9E4"
+        android:pathData="M20,24h0a8,8 0 0,1 8,8v10a8,8 0 0,1 -8,8h0a8,8 0 0,1 -8,-8v-10a8,8 0 0,1 8,-8Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="2.6"
+        android:fillColor="#00000000"
+        android:pathData="M20,24h0a8,8 0 0,1 8,8v10a8,8 0 0,1 -8,8h0a8,8 0 0,1 -8,-8v-10a8,8 0 0,1 8,-8Z" />
+    <path
+        android:fillColor="#E4608C"
+        android:pathData="M56,50L76,50L84,90L62,90Z" />
+    <path
+        android:fillColor="#FFD9E4"
+        android:pathData="M42,37a8,8 0 1,0 16,0a8,8 0 1,0 -16,0Z" />
+    <path
+        android:fillColor="#E4608C"
+        android:fillAlpha="0.6"
+        android:pathData="M46,37a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+    <path
+        android:strokeColor="#FFC0D2"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M2,26L10,26M0,37L10,37M2,48L10,48" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M68,62h6a4,4 0 0,1 4,4v0a4,4 0 0,1 -4,4h-6a4,4 0 0,1 -4,-4v0a4,4 0 0,1 4,-4Z" />
+</vector>

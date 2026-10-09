@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Baby Daycare</string>
+
+    <!-- Per-step instructions. Short, imperative and toddler-friendly: these are shown in the HUD
+         bubble and are what the hint hand is pointing at. -->
+    <string name="task_diaper_trash">Throw the dirty diaper in the bin!</string>
+    <string name="task_fresh_diaper">Put on a clean diaper and close the stickers!</string>
+    <string name="task_wipe_nose">Wipe the runny nose with a tissue!</string>
+    <string name="task_rash_cream">Rub the cream on the red spots!</string>
+    <string name="task_baby_powder">Sprinkle some baby powder!</string>
+    <string name="task_nail_clip">Clip those little nails!</string>
+    <string name="task_medicine">Time for medicine — open wide!</string>
+    <string name="task_wet_towel">Wipe the face with a wet towel!</string>
+    <string name="task_hair_dryer">Dry the hair — hold it there!</string>
+    <string name="task_hair_brush">Brush the messy hair!</string>
+    <string name="task_pacifier">Give the pacifier!</string>
+
+    <!-- HUD -->
+    <string name="hud_step_format">Step %1$d of %2$d</string>
+
+    <!-- Level complete -->
+    <string name="complete_title">All Clean!</string>
+    <string name="complete_subtitle">You took great care of the baby.</string>
+    <string name="btn_play_again">Play again</string>
+    <string name="btn_home">Home</string>
+
+    <!-- Nail mini-game -->
+    <string name="nail_title">Clip the nails!</string>
+    <string name="nail_subtitle">Tap each nail to snip it</string>
+    <string name="nail_done">All done!</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_trash_bin">Trash bin</string>
+    <string name="cd_toggle_sound">Toggle sound</string>
+    <string name="cd_restart">Start over</string>
+    <string name="cd_close">Close</string>
+
+</resources>

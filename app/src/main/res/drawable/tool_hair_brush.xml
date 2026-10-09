@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 10: hair brush, bristles up (focus point near the handle). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#E4608C"
+        android:pathData="M49,52h0a7,7 0 0,1 7,7v26a7,7 0 0,1 -7,7h0a7,7 0 0,1 -7,-7v-26a7,7 0 0,1 7,-7Z" />
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M22,32a27,22 0 1,0 54,0a27,22 0 1,0 -54,0Z" />
+    <path
+        android:strokeColor="#E4608C"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M22,32a27,22 0 1,0 54,0a27,22 0 1,0 -54,0Z" />
+    <path
+        android:fillColor="#FFD9E4"
+        android:pathData="M28,30a21,16 0 1,0 42,0a21,16 0 1,0 -42,0Z" />
+    <path
+        android:strokeColor="#C9A79A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M32,20L32,10M40,17L40,6M49,16L49,4M58,17L58,6M66,20L66,10" />
+    <path
+        android:fillColor="#E4608C"
+        android:fillAlpha="0.5"
+        android:pathData="M38.8,30a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0Z" />
+    <path
+        android:fillColor="#E4608C"
+        android:fillAlpha="0.5"
+        android:pathData="M46.8,34a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0Z" />
+    <path
+        android:fillColor="#E4608C"
+        android:fillAlpha="0.5"
+        android:pathData="M54.8,30a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0Z" />
+</vector>

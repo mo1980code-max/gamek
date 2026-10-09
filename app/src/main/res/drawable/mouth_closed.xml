@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Closed smiling mouth. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:strokeColor="#D9738C"
+        android:strokeWidth="6.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,34Q48,58 66,34" />
+    <path
+        android:fillColor="#F09AB0"
+        android:fillAlpha="0.5"
+        android:pathData="M36,44Q48,56 60,44" />
+</vector>

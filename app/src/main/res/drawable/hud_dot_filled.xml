@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Filled step dot: a small star, so progress reads as reward rather than as a checklist. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFD44D"
+        android:pathData="M2,12a10,10 0 1,0 20,0a10,10 0 1,0 -20,0Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M2,12a10,10 0 1,0 20,0a10,10 0 1,0 -20,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M12,6.6L13.35,10.14L17.14,10.33L14.19,12.71L15.17,16.37L12,14.3L8.83,16.37L9.81,12.71L6.86,10.33L10.65,10.14Z" />
+</vector>

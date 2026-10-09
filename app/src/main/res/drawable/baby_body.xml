@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chubby torso, arms and legs. The diaper and rash layers sit on top of this. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M26,62h0a10,10 0 0,1 10,10v10a10,10 0 0,1 -10,10h0a10,10 0 0,1 -10,-10v-10a10,10 0 0,1 10,-10Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M70,62h0a10,10 0 0,1 10,10v10a10,10 0 0,1 -10,10h0a10,10 0 0,1 -10,-10v-10a10,10 0 0,1 10,-10Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M15,48a33,34 0 1,0 66,0a33,34 0 1,0 -66,0Z" />
+    <path
+        android:strokeColor="#F3C39C"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M15,48a33,34 0 1,0 66,0a33,34 0 1,0 -66,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.16"
+        android:pathData="M30,40a18,14 0 1,0 36,0a18,14 0 1,0 -36,0Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M14,30h0a8,8 0 0,1 8,8v10a8,8 0 0,1 -8,8h0a8,8 0 0,1 -8,-8v-10a8,8 0 0,1 8,-8Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M82,30h0a8,8 0 0,1 8,8v10a8,8 0 0,1 -8,8h0a8,8 0 0,1 -8,-8v-10a8,8 0 0,1 8,-8Z" />
+    <path
+        android:fillColor="#FFDCC0"
+        android:pathData="M42,10h12a8,8 0 0,1 8,8v0a8,8 0 0,1 -8,8h-12a8,8 0 0,1 -8,-8v0a8,8 0 0,1 8,-8Z" />
+</vector>

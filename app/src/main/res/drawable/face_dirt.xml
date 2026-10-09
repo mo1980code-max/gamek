@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Food smudges on the cheeks, wiped away by the wet towel. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#C79A6B"
+        android:fillAlpha="0.85"
+        android:pathData="M18,52a12,8 0 1,0 24,0a12,8 0 1,0 -24,0Z" />
+    <path
+        android:fillColor="#C79A6B"
+        android:fillAlpha="0.8"
+        android:pathData="M56,44a10,7 0 1,0 20,0a10,7 0 1,0 -20,0Z" />
+    <path
+        android:fillColor="#B98A5C"
+        android:fillAlpha="0.75"
+        android:pathData="M39,68a13,7 0 1,0 26,0a13,7 0 1,0 -26,0Z" />
+    <path
+        android:fillColor="#D8AC7D"
+        android:fillAlpha="0.8"
+        android:pathData="M20,44a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+    <path
+        android:fillColor="#D8AC7D"
+        android:fillAlpha="0.75"
+        android:pathData="M70.6,58a3.4,3.4 0 1,0 6.8,0a3.4,3.4 0 1,0 -6.8,0Z" />
+</vector>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Level-complete celebration. Merged into CompletionOverlay (a FrameLayout). -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <View
+        android:id="@+id/complete_dim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@color/scrim" />
+
+    <!-- Fixed size keeps the panel identical on every device; the content is centred inside it. -->
+    <ImageView
+        android:id="@+id/complete_panel"
+        android:layout_width="302dp"
+        android:layout_height="404dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_panel" />
+
+    <LinearLayout
+        android:id="@+id/complete_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp">
+
+        <ImageView
+            android:id="@+id/complete_title_art"
+            android:layout_width="150dp"
+            android:layout_height="52dp"
+            android:contentDescription="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/banner_level_complete" />
+
+        <TextView
+            android:id="@+id/complete_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/complete_title"
+            android:textColor="@color/text_title"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/complete_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/star_1"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:contentDescription="@null"
+                android:src="@drawable/star_empty" />
+
+            <ImageView
+                android:id="@+id/star_2"
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:contentDescription="@null"
+                android:src="@drawable/star_empty" />
+
+            <ImageView
+                android:id="@+id/star_3"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:contentDescription="@null"
+                android:src="@drawable/star_empty" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/complete_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/complete_subtitle"
+            android:textColor="@color/text_body"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_home"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_button_blue"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:minWidth="112dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/btn_home"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/btn_play_again"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/bg_button_pink"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:minWidth="150dp"
+                android:paddingStart="22dp"
+                android:paddingEnd="22dp"
+                android:text="@string/btn_play_again"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Confetti falls in FRONT of the panel, which is what makes the celebration read. -->
+    <com.gamek.daycare.view.ParticleEmitterView
+        android:id="@+id/complete_confetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</merge>

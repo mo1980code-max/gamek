@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Unearned star outline. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#E8DCC8"
+        android:pathData="M48,8L59.17,34.63L87.94,37.02L66.07,55.87L72.69,83.98L48,69L23.31,83.98L29.93,55.87L8.06,37.02L36.83,34.63Z" />
+    <path
+        android:strokeColor="#D3C3A8"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M48,8L59.17,34.63L87.94,37.02L66.07,55.87L72.69,83.98L48,69L23.31,83.98L29.93,55.87L8.06,37.02L36.83,34.63Z" />
+</vector>

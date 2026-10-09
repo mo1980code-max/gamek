@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wet-hair sheen laid over the hair; its alpha tracks BabyScene.setHairWetness. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#3E7FB8"
+        android:fillAlpha="0.55"
+        android:pathData="M4,58a44,38 0 1,0 88,0a44,38 0 1,0 -88,0Z" />
+    <path
+        android:fillAlpha="0.6"
+        android:strokeColor="#BFE0F5"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M20,40Q30,64 22,86M40,30Q48,60 42,88M62,30Q68,60 64,88M80,42Q72,64 80,84" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.5"
+        android:pathData="M26,26a4,4 0 1,0 8,0a4,4 0 1,0 -8,0Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.45"
+        android:pathData="M62.8,22a3.2,3.2 0 1,0 6.4,0a3.2,3.2 0 1,0 -6.4,0Z" />
+</vector>

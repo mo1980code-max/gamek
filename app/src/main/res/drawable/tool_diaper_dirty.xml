@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tool 1: the rolled-up used diaper, tied with a blue band and still smelling. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#E4DCC6"
+        android:pathData="M16,54a32,24 0 1,0 64,0a32,24 0 1,0 -64,0Z" />
+    <path
+        android:strokeColor="#C4B998"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M16,54a32,24 0 1,0 64,0a32,24 0 1,0 -64,0Z" />
+    <path
+        android:fillColor="#D6CDB2"
+        android:pathData="M22,40L74,40L70,52L26,52Z" />
+    <path
+        android:fillColor="#5FB8F2"
+        android:fillAlpha="0.9"
+        android:pathData="M48,34h0a8,8 0 0,1 8,8v24a8,8 0 0,1 -8,8h0a8,8 0 0,1 -8,-8v-24a8,8 0 0,1 8,-8Z" />
+    <path
+        android:fillColor="#B9A86F"
+        android:fillAlpha="0.7"
+        android:pathData="M29,62a9,6 0 1,0 18,0a9,6 0 1,0 -18,0Z" />
+    <path
+        android:fillColor="#A89A62"
+        android:fillAlpha="0.6"
+        android:pathData="M57,48a5,5 0 1,0 10,0a5,5 0 1,0 -10,0Z" />
+    <path
+        android:strokeColor="#8F9B5A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M26,30Q30,22 38,26" />
+    <path
+        android:strokeColor="#8F9B5A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M62,28Q70,20 76,28" />
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dialog / popup card: cream fill, pink rim, inner keyline and a title tab. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="400dp"
+    android:viewportWidth="300"
+    android:viewportHeight="400">
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.35"
+        android:pathData="M46,6h208a40,40 0 0,1 40,40v308a40,40 0 0,1 -40,40h-208a40,40 0 0,1 -40,-40v-308a40,40 0 0,1 40,-40Z" />
+    <path
+        android:fillColor="#FFF8EC"
+        android:pathData="M48,10h204a38,38 0 0,1 38,38v304a38,38 0 0,1 -38,38h-204a38,38 0 0,1 -38,-38v-304a38,38 0 0,1 38,-38Z" />
+    <path
+        android:strokeColor="#FF87AC"
+        android:strokeWidth="8"
+        android:fillColor="#00000000"
+        android:pathData="M48,10h204a38,38 0 0,1 38,38v304a38,38 0 0,1 -38,38h-204a38,38 0 0,1 -38,-38v-304a38,38 0 0,1 38,-38Z" />
+    <path
+        android:strokeColor="#FFE3C8"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M52,24h196a28,28 0 0,1 28,28v296a28,28 0 0,1 -28,28h-196a28,28 0 0,1 -28,-28v-296a28,28 0 0,1 28,-28Z" />
+    <path
+        android:fillColor="#FF87AC"
+        android:pathData="M82,30h136a22,22 0 0,1 22,22v0a22,22 0 0,1 -22,22h-136a22,22 0 0,1 -22,-22v0a22,22 0 0,1 22,-22Z" />
+    <path
+        android:fillColor="#FFD44D"
+        android:pathData="M36,52a12,12 0 1,0 24,0a12,12 0 1,0 -24,0Z" />
+    <path
+        android:fillColor="#7FE3E0"
+        android:pathData="M240,52a12,12 0 1,0 24,0a12,12 0 1,0 -24,0Z" />
+</vector>

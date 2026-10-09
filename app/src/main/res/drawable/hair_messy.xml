@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bird's-nest hair: spikes in every direction. Rotates and settles as the brush works. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M8,74L12,40L22,52L28,18L40,40L48,8L58,38L70,14L76,46L86,34L88,74Z" />
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M8,70a40,20 0 1,0 80,0a40,20 0 1,0 -80,0Z" />
+    <path
+        android:fillColor="#A98577"
+        android:pathData="M20,44L30,26L38,44Z" />
+    <path
+        android:fillColor="#A98577"
+        android:pathData="M56,40L66,22L74,42Z" />
+</vector>

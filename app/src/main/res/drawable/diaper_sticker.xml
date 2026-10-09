@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Side sticker. Two of these are snapped on in step 2 to close the diaper. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#5FB8F2"
+        android:pathData="M24,30h48a14,14 0 0,1 14,14v8a14,14 0 0,1 -14,14h-48a14,14 0 0,1 -14,-14v-8a14,14 0 0,1 14,-14Z" />
+    <path
+        android:strokeColor="#2F8FD3"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M24,30h48a14,14 0 0,1 14,14v8a14,14 0 0,1 -14,14h-48a14,14 0 0,1 -14,-14v-8a14,14 0 0,1 14,-14Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M22,38h52a4,4 0 0,1 4,4v0a4,4 0 0,1 -4,4h-52a4,4 0 0,1 -4,-4v0a4,4 0 0,1 4,-4Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M48,40L51.06,47.79L59.41,48.29L52.95,53.61L55.05,61.71L48,57.2L40.95,61.71L43.05,53.61L36.59,48.29L44.94,47.79Z" />
+    <path
+        android:fillColor="#2F8FD3"
+        android:pathData="M80,40L92,48L80,56Z" />
+</vector>

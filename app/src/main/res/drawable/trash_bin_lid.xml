@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bin lid; hinges open from its left edge (pivot set in BabyScene.onSizeChanged). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#98A4B0"
+        android:pathData="M15,40h66a11,11 0 0,1 11,11v0a11,11 0 0,1 -11,11h-66a11,11 0 0,1 -11,-11v0a11,11 0 0,1 11,-11Z" />
+    <path
+        android:strokeColor="#7E8B98"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M15,40h66a11,11 0 0,1 11,11v0a11,11 0 0,1 -11,11h-66a11,11 0 0,1 -11,-11v0a11,11 0 0,1 11,-11Z" />
+    <path
+        android:fillColor="#C3CCD6"
+        android:pathData="M45,22h6a9,9 0 0,1 9,9v2a9,9 0 0,1 -9,9h-6a9,9 0 0,1 -9,-9v-2a9,9 0 0,1 9,-9Z" />
+    <path
+        android:strokeColor="#7E8B98"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M45,22h6a9,9 0 0,1 9,9v2a9,9 0 0,1 -9,9h-6a9,9 0 0,1 -9,-9v-2a9,9 0 0,1 9,-9Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M14.5,46h25a2.5,2.5 0 0,1 2.5,2.5v0a2.5,2.5 0 0,1 -2.5,2.5h-25a2.5,2.5 0 0,1 -2.5,-2.5v0a2.5,2.5 0 0,1 2.5,-2.5Z" />
+</vector>
